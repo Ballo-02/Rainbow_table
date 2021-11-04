@@ -1,0 +1,4 @@
+simple-term-menu
+pdoc3
+markdown
+pytest

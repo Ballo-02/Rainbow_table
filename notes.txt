@@ -1,0 +1,14 @@
+functions
+
+location src/pearson.py = hashN() = give a string with a number of bytes of the hash length creates a hash
+location asHex  src/pearson.py asHex() = turn bytes into hex pairs
+
+location src/rMenu.py = to start the menu bad r practise for -hard task
+
+
+location src/rainbow_generator.py = main file to edit, 
+tagetHashFunction(value) = sam eas hashN() but also sees how many times it was called later on -hard task
+makeGuess() = takes a hash value and makes a new input guess
+QueryTable() = searches through the chains, needs the hash that is being looked for, which guess generation function, minimum and maxium guess length - look more at
+rebuildChain() = used in queryTable(), used to rebuild a chain to find a hash
+generateTable() = what we work on
